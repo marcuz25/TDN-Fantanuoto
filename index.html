@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FANTANUOTO</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial;
+text-align:center;
+background:#6ec6ff;
+}
+
+header{
+margin-top: 70px;
+text-align: center;
+}
+
+h1{
+font-size:50px;
+}
+
+footer{
+text-align: center;
+background:orange;
+padding:px
+}
+
+footer a{
+margin:10px;
+color:black;
+font-weight:bold;
+text-decoration:none;
+}
+
+.hamburger{
+font-size:60px;
+cursor:pointer;
+position:absolute;
+left:8px;
+top:-10px;
+}
+.container{
+font-size: 20px;
+max-width:900px;
+margin:auto;
+padding:50px;
+}
+#menu{
+display:none;
+background:#333;
+}
+
+#menu a{
+display:block;
+color:white;
+padding:15px;
+text-decoration:none;
+}
+
+</style>
+
+<script>
+function toggleMenu(){
+var menu=document.getElementById("menu");
+if(menu.style.display=="block"){
+menu.style.display="none";
+}else{
+menu.style.display="block";
+}
+}
+</script>
+
+</head>
+
+<body>
+
+<div class="hamburger" onclick="toggleMenu()">☰</div>
+
+<nav id="menu">
+<a href="index.html">Home</a>
+<a href="classifica.html">Classifica</a>
+<a href="squadre.html">Squadre</a>
+<a href="staff.html">Staff e risultati</a>
+</nav>
+
+<header>
+<h1>FANTANUOTO</h1>
+<h2>PRALINO SPORT</h2>
+</header>
+<div class="container">
+<a href="https://www.federnuoto.piemonte.it/finpiemonte/home_new/calendari_regolamenti_agonismo.asp?area=1&read=nuoto&menu=agonismo&settore=nuoto&stagione=2025">Calendario Gare 2025/26</a>
+<p>Pralino Sport presenta il nuovo Fantanuoto s.a. 2025\2026 per gli atleti TDN, ogni weekend di gara verrano presi in considerazioni tempi e bonus/malus e verrano calcolati i punti di gara in gara.</p>
+<p>Ogni settimana di gara verrà messo qui su questa pagina il modulo (form google) da compilare per inserire i tempi di prediction</p>
+<p></p>
+<p>Schiaccia il link qui sotto e metti il TUO tempo!</p>
+<p></p>
+<a href="https://docs.google.com/forms/d/1Dn6OOuTLARuCQKoirHk4qcCmzwaOhYv8SpVOFdFxNn8/viewform"><h3>Form inserimento tempi</h3></a>
+<p></p>
+</div>
+
+<footer>
+<a href="index.html">Home</a>
+<a href="classifica.html">Classifica</a>
+<a href="squadre.html">Squadre</a>
+<a href="staff.html">Staff e risultati</a>
+<p></p>
+<a href="https://docs.google.com/document/d/14dlaQAxgHTwL7GR2OLCx94Qu7HNSiU8J/edit?usp=drivesdk&ouid=113028907438845654129&rtpof=true&sd=true">Regolamento</a>
+<p></p>
+</footer>
+
+
+</body>
+</html>

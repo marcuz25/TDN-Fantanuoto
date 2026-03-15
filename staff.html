@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Staff</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial;
+text-align:center;
+background:red;
+color:white;
+}
+
+.hamburger{
+font-size:60px;
+cursor:pointer;
+position:absolute;
+left:8px;
+top:-10px;
+}
+
+#menu{
+display:none;
+background:#333;
+}
+
+#menu a{
+display:block;
+color:white;
+padding:15px;
+text-decoration:none;
+}
+
+.contenuto{
+padding:75px;
+}
+
+.sinistra{
+text-align: start;
+margin-left: 110px
+}
+
+footer{
+background:orange;
+padding:60px;
+color:black;
+}
+
+footer a{
+margin:10px;
+color:black;
+font-weight:bold;
+text-decoration:none;
+}
+header{
+padding: 65px;
+}
+</style>
+
+<script>
+function toggleMenu(){
+var menu=document.getElementById("menu");
+if(menu.style.display=="block"){
+menu.style.display="none";
+}else{
+menu.style.display="block";
+}
+}
+</script>
+
+</head>
+
+<body>
+
+<div class="hamburger" onclick="toggleMenu()">☰</div>
+
+<nav id="menu">
+<a href="index.html">Home</a>
+<a href="classifica.html">Classifica</a>
+<a href="squadre.html">Squadre</a>
+<a href="staff.html">Staff e risultati /a>
+</nav>
+<header>
+<h1>Staff e Collaboratori</h1>
+</header>
+<section class="contenuto">
+<p>Presidente: Salino Alessio</p>
+<p>AD/direttore: Orizio Marco</p>
+<p>Assistente di parte TR21: Olivero Emma</p>
+<p>Assistente di parte TH69: Alesci Elisa </p>
+<p>Informatic assistant: Chatgpt</p>
+<p>operator browser: Google</p>
+</section>
+
+<h2>Risultati weekend</h2>
+<h3>Tempo reale/weekend precedente</h3>
+<p></p>
+<p>Campionati regionali di categoria, 7-8-14-15/03/26</p>
+<h3> Trisomia 21: 194</h3>
+<section class="sinistra">
+<ul>
+<li>Caccianotti 20</li>
+<li>Cincotto 13</li>
+<li>Olivero 30</li>
+<li>Pedracini</li>
+<li>Placido 25</li>
+<li>Toppan 10</li>
+</ul>
+</section>
+<p> Top 6 altre gare:</p>
+<section class="sinistra">
+<ul>
+<li> Olivero 20</li>
+<li> Caccianotti 10</li>
+<li> Caccianotti 15</li>
+<li>Olivero 15</li>
+<li>Placido 20</li>
+<li>Olivero 16</li>
+</ul>
+</section>
+<h3> Threesome 69: 176</h3>
+<section class="sinistra">
+<ul>
+<li> Alesci 13</li>
+<li>Cernuto 5</li>
+<li>Gardiman 20</li>
+<li>Godio 11</li>
+<li>Maggioni 20</li>
+<li>Monteferrario 15</li>
+<li>Orizio 20</li>
+</ul>
+</section>
+Top 5 altre gare:
+<section class="sinistra">
+<ul>
+<li>Maggioni 15</li>
+<li> Monteferrario 13</li>
+<li> Orizio 11</li>
+<li>Gardiman 13</li>
+<li>Maggioni 20</li>
+</ul>
+</section>
+
+
+<footer>
+<a href="index.html">Home</a>
+<a href="classifica.html">Classifica</a>
+<a href="squadre.html">Squadre</a>
+<a href="staff.html">Staff e risultati</a>
+<p></p>
+<a href="https://docs.google.com/document/d/14dlaQAxgHTwL7GR2OLCx94Qu7HNSiU8J/edit?usp=drivesdk&ouid=113028907438845654129&rtpof=true&sd=true">Regolamento</a>
+
+</footer>
+
+</body>
+</html>
